@@ -1,0 +1,37 @@
+# Secrets
+.env
+!.env.example
+
+# --- Flutter / Dart (app/) ---
+app/build/
+app/.dart_tool/
+app/.pub-cache/
+app/.pub/
+app/**/doc/api/
+app/**/ios/Flutter/.last_build_id
+app/.flutter-plugins-dependencies
+app/android/app/debug
+app/android/app/profile
+app/android/app/release
+app/android/build/
+
+# --- Python backend (app/backend/) ---
+app/backend/.venv/
+app/backend/venv/
+app/backend/__pycache__/
+app/backend/**/__pycache__/
+*.pyc
+
+# --- Nuxt / Node (webapp/) ---
+webapp/node_modules/
+webapp/.nuxt/
+webapp/.output/
+webapp/.nitro/
+webapp/.cache/
+webapp/dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+*.log

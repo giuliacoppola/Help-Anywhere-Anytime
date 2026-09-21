@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+websockets
+ultralytics
+opencv-python
+numpy
+torch
+faster-whisper
+silero-vad
+scipy
+python-multipart
+groq
+supabase
+python-dotenv
